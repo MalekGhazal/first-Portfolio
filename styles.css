@@ -113,14 +113,9 @@ html body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.skills-icons {
-    font-size: 100px;
-}
-
-.skills-icons i {
     color: #BFCCB5;
+    font-size: 100px;
+    overflow: hidden;
 }
 
 /*------------------------------ Services -------------------------*/
@@ -193,16 +188,14 @@ footer small {
 .home-social {
     width: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .home-social a {
-    width: 40px;
-    height: 40px;
     background: transparent;
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .home-social a:hover {
