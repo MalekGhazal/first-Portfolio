@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html body {
+    background-color: #BFCCB5;
+}
+
+::-moz-selection {
+    background-color: #7C96AB;
+    color: white;
+}
+
+::selection {
+    background-color: #7C96AB;
+    color: white;
+}
+
+/*------------------------------ The Nav Bar -------------------------*/
+
+.navbar .navbar-brand {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar-nav a:hover,
+.navbar-nav a.active {
+    color: #7C96AB !important;
+}
+
+.offcanvas-body, .offcanvas-header {
+    background-color: #bfccb5;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.navbar-toggler i {
+    font-size: 25px;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+}
+
+.navbar .navbar-nav .nav-item {
+    font-size: 18px;
+}
+
+#services {
+    scroll-behavior: smooth;
+}
+
+/*------------------------------ Landing Page -------------------------*/
+
+.home-content {
+    margin-top: 7rem;
+}
+
+.home-content h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.home-content .my-name {
+    text-shadow: 2px 2px 0px rgba(124, 150, 171, 1);
+    
+}
+
+.home-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #7C96AB;
+}
+
+.home-content p {
+    font-size: 17px;
+    margin: 20px 0 40px;
+}
+
+.home-content .custom-button {
+    background: #EDC6B1;
+    border: none;
+    font-size: 20px;
+    padding: 10px 0;
+    width: 30%;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.home-content .custom-button:hover {
+    background: none;
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+
+.first-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*------------------------------ Skills -------------------------*/
+
+
+.flex-skills {
+    height: 400px;
+    background-color: white;
+    border-radius: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-icons {
+    font-size: 100px;
+}
+
+.skills-icons i {
+    color: #BFCCB5;
+}
+
+/*------------------------------ Services -------------------------*/
+
+.services-content {
+    margin-top: 15vh;
+}
+
+.services-content .card-header {
+    background: none;
+    border: none;
+    margin-top: 40px;
+    color: #7c96ab;
+}
+
+.services-content .card-header h2 {
+    font-weight: 600;
+}
+
+.services-content .card {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 8px 8px 0px rgba(124, 150, 171, 1);
+}
+
+.services-content .card-body {
+    justify-content: center;
+}
+
+.services-content .card-body p {
+    color: #7C96AB;
+    font-size: 19px;
+    letter-spacing: 1px;
+    padding: 35px 0;
+}
+
+.services-content .card-body a {
+    text-decoration: none;
+    background-color: #edc6b1;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 75%;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.services-content .card-body a:hover {
+    background: none;
+    border: 1px solid #edc6b1;
+    color: #edc6b1;
+    transition: 0.3s;
+}
+
+/*------------------------------ Footer -------------------------*/
+
+.footer-content {
+    width: 100%;
+    padding: 20px;
+}
+
+footer small {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.home-social {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-social a {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.home-social a:hover {
+    color: #7C96AB;
+    transition: 0.4s;
+}
+
+/*------------------------------ End of Index.html -------------------------*/
+/*------------------------------ Contact Page -------------------------*/
+
+h1.contact-me {
+    font-weight: 600;
+    text-shadow: 4px 3px 0px rgba(124, 150, 171, 1);
+}
+
+button.contact-custom-button {
+    background: #EDC6B1;
+    border: none;
+    font-size: 20px;
+    padding: 10px 0;
+    width: 20%;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+button.contact-custom-button:hover {
+    background: none;
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+
+/*------------------------------ End of Contact.html -------------------------*/
+/*------------------------------ About Page -------------------------*/
+
+div.about-content {
+    margin-top: 30vh;
+}
+
+.about-content .heading {
+    font-weight: 600;
+    text-shadow: 4px 3px 0px rgba(124, 150, 171, 1);
+}
+
+.about-content .about-img {
+    max-width: 100%;
+}
+
+.about-content .top-buffer {
+    margin-bottom: 30px;
+}
+
+.about-content p {
+    font-size: 20px;
+}
+
+/*------------------------------ End of About.html -------------------------*/
+/*------------------------------ Portfolio Page -------------------------*/
+
+.portfolio-content {
+    margin-top: 30vh;
+}
+
+.portfolio-content .card {
+    border: 2px solid white;
+}
+
+.portfolio-content .card-body {
+    color:#7c96ab;
+}
+
+.portfolio-content img:hover {
+    filter: brightness(75%);
+    transition: 0.9s;
+    transform: scale(0.97);
+}
+
+/*------------------------------ End of Portfolio.html -------------------------*/
+/*------------------------------ Sorting Page -------------------------*/
+
+.sorting-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sorting-content h1 {
+    font-weight: 600;
+    text-shadow: 4px 3px 0px rgba(124, 150, 171, 1);
+}
+
+#sortingvisualizer {
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bar {
+    width: 20px;
+    background-color: #7C96AB;
+    margin: 1px;
+    border-radius: 4px;
+}
+
+.sorting-btn {
+    border: none;
+    background-color:#edc6b1;
+    color: white;
+    padding: 10px 40px;
+    font-size: 30px;
+    border-radius: 20px;
+}
