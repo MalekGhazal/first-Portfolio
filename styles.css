@@ -120,6 +120,14 @@ html body {
 
 /*------------------------------ Services -------------------------*/
 
+.services-title h2 {
+    font-weight: 600;
+    text-shadow: 4px 3px 0px rgba(124, 150, 171, 1);
+    letter-spacing: 3px;
+    margin-top: 20px;
+    transform: translateY(50%);
+}
+
 .services-content {
     margin-top: 15vh;
 }
